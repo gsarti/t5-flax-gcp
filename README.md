@@ -202,6 +202,7 @@ As an example, knowing that my tokenization completed Aug 25 at 13:xx and that f
 
 If you find this tutorial useful, please cite our work as:
 
+```bibtex
 @article{sarti-nissim-2022-it5,
     title={{IT5}: Large-scale Text-to-text Pretraining for Italian Language Understanding and Generation},
     author={Sarti, Gabriele and Nissim, Malvina},
@@ -210,3 +211,4 @@ If you find this tutorial useful, please cite our work as:
     year={2022},
     month={mar}
 }
+```

@@ -197,3 +197,16 @@ git push
 `find . -type f -size +2G -size -4G -exec ls -lah {} + | grep 'Aug 25 13' | wc -l `
 
 As an example, knowing that my tokenization completed Aug 25 at 13:xx and that files in the cache are 3Gb in size each, this should return the value you set for `n_proc`. You can get the filenames of the old preprocessing caches by removing the `wc -l` pipe and delete them all to leave space for the new ones.
+
+## Citation
+
+If you find this tutorial useful, please cite our work as:
+
+@article{sarti-nissim-2022-it5,
+    title={{IT5}: Large-scale Text-to-text Pretraining for Italian Language Understanding and Generation},
+    author={Sarti, Gabriele and Nissim, Malvina},
+    journal={ArXiv preprint 2203.03759},
+    url={https://arxiv.org/abs/2203.03759},
+    year={2022},
+    month={mar}
+}

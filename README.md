@@ -186,7 +186,7 @@ git push
 
 ## Fine-tune a pretrained T5 model in Flax
 
-*TODO*
+Refer to [`gsarti/it5`](https://github.com/gsarti/it5) for scripts used to fine-tune T5 models after pre-training
 
 ## Useful Tips
 

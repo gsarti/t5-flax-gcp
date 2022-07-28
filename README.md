@@ -10,7 +10,7 @@ _**Why JAX/Flax?**_ Thanks to the amazing work of the HuggingFace team, a good p
 
 - Out-of-the-box compatibility with Pytorch and Tensorflow in the `transformers` framework. A Flax model can be easily converted in Pytorch, for example, by using `T5ForConditionalGeneration.from_pretrained("path/to/flax/ckpt", from_flax=True)`.
 
-The code and instructions contained in this repository were used to pretrain the models [`gsarti/t5-base-it`](https://huggingface.co/gsarti/t5-base-it) and [`gsarti/t5-large-it`](https://huggingface.co/gsarti/t5-large-it) available on the Huggingface Hub, using ~270Gb of cleaned web-scraped Italian texts. The dataset is also made available on the Huggingface Hub under the name [`gsarti/clean_mc4_it`](https://huggingface.co/datasets/gsarti/clean_mc4_it).
+The code and instructions contained in this repository were used to pretrain the models [`gsarti/it5-base`](https://huggingface.co/gsarti/it5-base) and [`gsarti/it5-large`](https://huggingface.co/gsarti/it5-large) available on the Huggingface Hub, using ~270Gb of cleaned web-scraped Italian texts. The dataset is also made available on the Huggingface Hub under the name [`gsarti/clean_mc4_it`](https://huggingface.co/datasets/gsarti/clean_mc4_it).
 
 ## Setup on your machine
 
